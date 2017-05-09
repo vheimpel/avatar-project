@@ -2,8 +2,6 @@ var request = require('request');
 var fs = require('fs');
 var GITHUB_USER = "vheimpel";
 var GITHUB_TOKEN = "40b24ddf955eb70bdda4cb2f9368deebcfa33459";
-var userAvatarUrl = "";
-var userLogin = "";
 
 //Downloads the images, names them using the username
 function downloadImageByURL(url, userName) {
